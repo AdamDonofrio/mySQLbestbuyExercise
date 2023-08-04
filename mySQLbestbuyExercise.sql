@@ -22,7 +22,7 @@ select * from employees
 where MiddleInitial is null;
 
 -- find distinct product prices
-select distinct product from prices;
+select DISTINCT(price) from products;
 
 -- find all employees whose first name starts with the letter ‘j’
 select * from employees
